@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Berat Badan Kita</string>
+    <string name="masuk_dengan_google">Masuk dengan Google</string>
+    <string name="keluar">Keluar</string>
+
+    <string name="tanggalSekarang">01 JAN 2023</string>
+    <string name="tombol_hapus">Tombol hapus</string>
+    <string name="logo_google">Logo Google</string>
+
+    <string name="mulai_kg">Mulai (kg)</string>
+    <string name="mulai">Mulai</string>
+    <string name="saat_ini">Saat ini (kg)</string>
+    <string name="simpan">Simpan</string>
+    <string name="tujuan">Tujuan (kg)</string>
+    <string name="berat_badan_ideal">Mau tau berat idealmu?</string>
+    <string name="klik_disini">Klik disini</string>
+
+    <string name="tinggi_badan_saat_ini">Tinggi Badan Saat Ini (cm)</string>
+    <string name="rekomendasi_berat">Rekomendasi berat badan ideal kamu: %.1f - %.1f kg</string>
+    <string name="cek">Cek</string>
+
+    <string name="tambah_berat_badan">Tambah berat badan</string>
+    <string name="masukkan_berat_badan">Masukkan berat badan (kg)</string>
+    <string name="masukkan_catatan">Masukkan catatan</string>
+
+    <string name="grafik">Grafik</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="profil">Profil</string>
+    <string name="ringkasan">Ringkasan</string>
+    <string name="logo_aplikasi">Logo Aplikasi</string>
+
+    <string name="berat_badan_saat_ini">Berat Badan Saat Ini (kg)</string>
+    <string name="berat_badan_tujuan">Berat Badan Tujuan (kg)</string>
+
+    <string name="tidak_ada_data">Silahkan tambah berat badan kamu dengan menekan tombol tambah di pojok kanan atas</string>
+
+    <string name="contoh_nama">Muhammad Lutfi</string>
+    <string name="contoh_email">mhdlutfi@gmail.com</string>
+
+    <string name="bedankit">Bedankit</string>
+    <string name="berat_badan_kita">Berat Badan Kita</string>
+
+    <string name="error_tinggi_kosong">Masukkan tinggi badan kamu saat ini</string>
+    <string name="error_tinggi_kurang">Tinggi badan kamu harus lebih besar dari 20 cm</string>
+    <string name="error_tinggi_lebih">Tinggi badan kamu melebihi batas maksimum</string>
+
+    <string name="error_berat_kosong">Masukkan berat badan kamu saat ini</string>
+    <string name="error_berat_tujuan_kosong">Masukkan berat badan tujuan kamu</string>
+    <string name="error_berat_kurang">Berat badan harus lebih besar dari 5 kg</string>
+    <string name="error_berat_lebih">Berat badan kamu melebihi batas maksimum</string>
+    <string name="error_berat_beda">Berat badan tujuan kamu harus berbeda dengan berat badan saat ini</string>
+
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="peringatan_logout">Apakah kamu yakin ingin keluar?</string>
+    <string name="ya">Ya</string>
+
+    <string name="selamat_tujuan_sama">🎉Selamat tujuan kamu sudah tercapai🎉</string>
+    <string name="data_berhasil_masuk">Data berhasil masuk</string>
+</resources>

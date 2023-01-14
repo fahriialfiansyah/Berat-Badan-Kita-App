@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/bottomNavFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="org.d3ifcool.beratbadankita.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_bottomNavFragment"
+            app:destination="@id/bottomNavFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="org.d3ifcool.beratbadankita.ui.onboarding.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_bottomNavFragment"
+            app:destination="@id/bottomNavFragment" />
+        <action
+            android:id="@+id/action_onBoardingFragment_to_cekIdealFragment"
+            app:destination="@id/cekIdealFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3ifcool.beratbadankita.ui.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_riwayatFragment"
+            app:destination="@id/riwayatFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tambahBeratFragment"
+            app:destination="@id/tambahBeratFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/riwayatFragment"
+        android:name="org.d3ifcool.beratbadankita.ui.RiwayatFragment"
+        android:label="fragment_riwayat"
+        tools:layout="@layout/fragment_riwayat" >
+        <action
+            android:id="@+id/action_riwayatFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_riwayatFragment_to_tambahBeratFragment"
+            app:destination="@id/tambahBeratFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="org.d3ifcool.beratbadankita.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/bottomNavFragment"
+        android:name="org.d3ifcool.beratbadankita.BottomNavFragment"
+        android:label="fragment_bottom_nav"
+        tools:layout="@layout/fragment_bottom_nav" >
+        <action
+            android:id="@+id/action_bottomNavFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_bottomNavFragment_to_tambahBeratFragment"
+            app:destination="@id/tambahBeratFragment" />
+        <action
+            android:id="@+id/action_bottomNavFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/cekIdealFragment"
+        android:name="org.d3ifcool.beratbadankita.ui.CekIdealFragment"
+        android:label="CekIdealFragment" />
+    <dialog
+        android:id="@+id/tambahBeratFragment"
+        android:name="org.d3ifcool.beratbadankita.ui.TambahBeratFragment"
+        android:label="TambahBeratFragment" />
+
+
+</navigation>
